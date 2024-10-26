@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Oi&display=swap');
+
+:root{
+    --vermelho: rgb(242, 1, 1);
+    --vinho: rgb(83, 20, 28);
+    --rosa: rgb(255, 185, 185);
+    --vermelho-clarinho: rgb(220, 118, 126);
+    --roxinho: rgb(174, 0, 255);
+    --pretinho: rgb(0, 0, 0):
+    --branco: rgb(255, 255, 255);
+    --ont-family: "Exo 2", serif;
+    --font-texto: "Oi", serif;
+}
+
+body{
+    background-color: var(--rosa);
+    font-family: var(--fonte-family);
+    color: var(--pretinho);
+    height: 100v;
+}
+header{
+    background-color:var(--vermelho-clarinho);
+    text-align: center;
+    font-size: 4rem;
+    color:var(--vinho);
+}
+
+h2 {
+    font-family: var(--fonte-family);
+    font-size: 3rem;
+    color: var(--vinho);
+    transform-origin: center;
+    padding: 1.5rem 0;
+}
+
+nav a{
+    font-family: var(--fonte-family);
+    text-decoration: flex ;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--vermelho);
+    font-size: 2rem;
+    margin: 0 2rem 1rem 0 ;
+}
+
+.card{
+    background-color: var(--vinho);
+    color: var(--vermelho-clarinho);
+    bottom: 2px;
+}
+
+

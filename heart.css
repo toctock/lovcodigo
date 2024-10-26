@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Oi&display=swap');
+
+:root{
+    --vermelho: rgb(242, 1, 1);
+    --vinho: rgb(83, 20, 28);
+    --rosa: rgb(255, 185, 185);
+    --vermelho-clarinho: rgb(220, 118, 126);
+    --roxinho: rgb(174, 0, 255);
+    --pretinho: rgb(0, 0, 0):
+    --branco: rgb(255, 255, 255);
+    --ont-family: "Exo 2", serif;
+    --font-texto: "Oi", serif;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza o container horizontalmente */
+    align-items: center;     /* Centraliza o container verticalmente */
+}
+header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fd267d; /* Define uma cor visível para o header */
+}
+
+footer {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333; /* Cor visível para o footer */
+}
+.container {
+    display: flex;
+    justify-content: center;  /* Centraliza os corações horizontalmente */
+    align-items: center;      /* Alinha os corações verticalmente */
+    gap: 60px;                /* Aumenta o espaçamento horizontal entre os corações */
+}
+
+.heart {
+    position: relative;
+    height: 160px;
+    width: 100px;
+    background: #fd267d;
+    border-radius: 200px 200px 0 0;
+    transform: rotate(45deg);
+}
+
+.heart::before {
+    content: " ";
+    position: absolute;
+    height: 160px;
+    width: 100px;
+    background: #fd267d;
+    border-radius: 200px 200px 0 0;
+    transform: rotate(-90deg);
+    top: 30px;
+    left: -30px;
+}
