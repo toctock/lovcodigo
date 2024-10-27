@@ -32,6 +32,48 @@ h2 {
     color: var(--vinho);
     transform-origin: center;
     padding: 1.5rem 0;
+}.img-pagina {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-slide {
+    width: 98.5vw;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 2em 0;
+}
+
+.paginas-slide {
+    display: inline-block;
+    animation: anima 40s linear infinite;
+}
+
+
+.paginas-slide img, .paginas-slide2 img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+#img-rotativo {
+    width: 189px;
+}
+
+#img-rotativo2 {
+    width: 189px;
+}
+
+@keyframes anima {
+    0% { 
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+p{
+    font-size: medium;
 }
 
 nav a{
