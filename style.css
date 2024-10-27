@@ -8,13 +8,13 @@
     --roxinho: rgb(174, 0, 255);
     --pretinho: rgb(0, 0, 0):
     --branco: rgb(255, 255, 255);
-    --ont-family: "Exo 2", serif;
+    --font-family: "Exo 2", serif;
     --font-texto: "Oi", serif;
 }
 
 body{
-    background-color: var(--rosa);
-    font-family: var(--fonte-family);
+    background-color: var(--vermelho-clarinho);
+    font-family: var(--font-family);
     color: var(--pretinho);
     height: 100v;
 }
@@ -22,12 +22,13 @@ header{
     background-color:var(--vermelho-clarinho);
     text-align: center;
     font-size: 4rem;
+    font-family: var(--font-texto);
     color:var(--vinho);
 }
 
 h2 {
-    font-family: var(--fonte-family);
-    font-size: 3rem;
+    font-family: var(--font-texto);
+    font-size: 2rem;
     color: var(--vinho);
     transform-origin: center;
     padding: 1.5rem 0;
@@ -39,9 +40,9 @@ nav a{
     justify-content: center;
     font-weight: 400;
 }
-nav a{
+nav a {
     text-decoration: none;
-    color: var(--vermelho);
+    color: var(--ro);
     font-size: 2rem;
     margin: 0 2rem 1rem 0 ;
 }
@@ -52,4 +53,25 @@ nav a{
     bottom: 2px;
 }
 
+a{
+    color: var(--grape);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    background-color: var(--);
+    color: var(--vermelho);
+    transition: 1s;
+}
+
+.footer{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: var(--font-family);
+    color: var(--roxinho);
+    position: relative;
+    margin: center;
+}
 
